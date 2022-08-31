@@ -1,12 +1,12 @@
 {
-  "name": "yarnspike",
-  "version": "1.0.0",
-  "description": "yarn spike for dep managment",
-  "main": "index.js",
-  "author": "anand",
-  "license": "MIT",
-  "private": false,
-  "dependencies": {
-    "express": "^4.18.1"
-  }
+    "name": "yarnspike",
+    "version": "1.0.0",
+    "description": "yarn spike for dep managment",
+    "main": "index.js",
+    "author": "anand",
+    "license": "MIT",
+    "private": false,
+    "dependencies": {
+        "express": "^4.18.1"
+    }
 }
