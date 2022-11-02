@@ -1,272 +1,1165 @@
 {
-    "type": "inspect",
-    "data": {
-        "name": "mime-types",
-        "description": "The ultimate javascript content-type utility.",
-        "dist-tags": {
-            "latest": "2.1.35"
-        },
-        "versions": [
-            "0.1.0",
-            "1.0.0",
-            "1.0.1",
-            "1.0.2",
-            "2.0.0",
-            "2.0.1",
-            "2.0.2",
-            "2.0.3",
-            "2.0.4",
-            "2.0.5",
-            "2.0.6",
-            "2.0.7",
-            "2.0.8",
-            "2.0.9",
-            "2.0.10",
-            "2.0.11",
-            "2.0.12",
-            "2.0.13",
-            "2.0.14",
-            "2.1.0",
-            "2.1.1",
-            "2.1.2",
-            "2.1.3",
-            "2.1.4",
-            "2.1.5",
-            "2.1.6",
-            "2.1.7",
-            "2.1.8",
-            "2.1.9",
-            "2.1.10",
-            "2.1.11",
-            "2.1.12",
-            "2.1.13",
-            "2.1.14",
-            "2.1.15",
-            "2.1.16",
-            "2.1.17",
-            "2.1.18",
-            "2.1.19",
-            "2.1.20",
-            "2.1.21",
-            "2.1.22",
-            "2.1.23",
-            "2.1.24",
-            "2.1.25",
-            "2.1.26",
-            "2.1.27",
-            "2.1.28",
-            "2.1.29",
-            "2.1.30",
-            "2.1.31",
-            "2.1.32",
-            "2.1.33",
-            "2.1.34",
-            "2.1.35"
-        ],
-        "maintainers": [
-            {
-                "name": "dougwilson",
-                "email": "doug@somethingdoug.com"
+    "_id": "react-chunk",
+    "_rev": "12-3c8486356945da6927b2f84c6d02382f",
+    "name": "react-chunk",
+    "dist-tags": {
+        "latest": "7.3.0"
+    },
+    "versions": {
+        "1.0.0": {
+            "name": "react-chunk",
+            "version": "1.0.0",
+            "description": "A higher order component for dynamically importing components, forked from react-loadable.",
+            "main": "lib/index.js",
+            "author": {
+                "name": "adam-26"
             },
-            {
-                "name": "jongleberry",
-                "email": "jonathanrichardong@gmail.com"
-            }
-        ],
-        "time": {
-            "modified": "2022-06-19T19:56:01.453Z",
-            "created": "2014-05-02T15:54:00.885Z",
-            "0.1.0": "2014-05-02T15:54:00.885Z",
-            "1.0.0": "2014-05-12T20:00:39.325Z",
-            "1.0.1": "2014-06-24T20:45:58.288Z",
-            "1.0.2": "2014-08-04T03:44:33.290Z",
-            "2.0.0": "2014-09-02T08:32:26.198Z",
-            "2.0.1": "2014-09-08T05:02:04.030Z",
-            "2.0.2": "2014-09-29T01:50:31.565Z",
-            "2.0.3": "2014-11-09T18:09:36.046Z",
-            "2.0.4": "2014-12-10T17:57:57.684Z",
-            "2.0.5": "2014-12-29T19:57:28.126Z",
-            "2.0.6": "2014-12-30T17:41:58.705Z",
-            "2.0.7": "2014-12-30T20:27:02.217Z",
-            "2.0.8": "2015-01-30T04:58:29.008Z",
-            "2.0.9": "2015-02-10T05:07:45.349Z",
-            "2.0.10": "2015-03-14T00:57:09.091Z",
-            "2.0.11": "2015-05-05T16:56:57.397Z",
-            "2.0.12": "2015-05-20T03:10:38.358Z",
-            "2.0.13": "2015-06-01T04:37:42.299Z",
-            "2.0.14": "2015-06-06T22:55:10.695Z",
-            "2.1.0": "2015-06-08T03:53:55.197Z",
-            "2.1.1": "2015-06-08T14:30:21.703Z",
-            "2.1.2": "2015-06-26T02:31:38.715Z",
-            "2.1.3": "2015-07-13T22:21:31.913Z",
-            "2.1.4": "2015-07-31T01:37:15.784Z",
-            "2.1.5": "2015-08-20T18:14:08.205Z",
-            "2.1.6": "2015-09-04T00:14:46.978Z",
-            "2.1.7": "2015-09-20T18:44:04.903Z",
-            "2.1.8": "2015-12-01T05:55:42.054Z",
-            "2.1.9": "2016-01-06T17:52:14.411Z",
-            "2.1.10": "2016-02-15T22:27:21.187Z",
-            "2.1.11": "2016-05-02T05:02:47.292Z",
-            "2.1.12": "2016-09-18T22:23:37.122Z",
-            "2.1.13": "2016-11-18T21:39:28.247Z",
-            "2.1.14": "2017-01-15T05:29:02.108Z",
-            "2.1.15": "2017-03-24T03:55:55.438Z",
-            "2.1.16": "2017-07-25T02:42:39.330Z",
-            "2.1.17": "2017-09-02T03:26:34.147Z",
-            "2.1.18": "2018-02-16T17:34:21.420Z",
-            "2.1.19": "2018-07-18T05:29:59.712Z",
-            "2.1.20": "2018-08-26T22:07:10.102Z",
-            "2.1.21": "2018-10-20T03:37:07.996Z",
-            "2.1.22": "2019-02-14T22:47:38.276Z",
-            "2.1.23": "2019-04-18T04:41:15.063Z",
-            "2.1.24": "2019-04-21T03:46:47.001Z",
-            "2.1.25": "2019-11-12T14:18:16.771Z",
-            "2.1.26": "2020-01-06T03:47:55.198Z",
-            "2.1.27": "2020-04-24T03:36:12.387Z",
-            "2.1.28": "2021-01-02T04:28:59.153Z",
-            "2.1.29": "2021-02-18T00:33:48.436Z",
-            "2.1.30": "2021-04-02T05:06:28.101Z",
-            "2.1.31": "2021-06-01T17:29:08.384Z",
-            "2.1.32": "2021-07-27T17:39:18.598Z",
-            "2.1.33": "2021-10-01T17:09:22.903Z",
-            "2.1.34": "2021-11-09T04:30:21.904Z",
-            "2.1.35": "2022-03-12T18:04:43.042Z"
-        },
-        "homepage": "https://github.com/jshttp/mime-types#readme",
-        "repository": {
-            "type": "git",
-            "url": "git+https://github.com/jshttp/mime-types.git"
-        },
-        "bugs": {
-            "url": "https://github.com/jshttp/mime-types/issues"
-        },
-        "license": "MIT",
-        "readmeFilename": "README.md",
-        "contributors": [
-            {
-                "name": "Douglas Christopher Wilson",
-                "email": "doug@somethingdoug.com"
+            "license": "MIT",
+            "repository": {
+                "type": "git",
+                "url": "git+https://github.com/adam-26/react-chunk.git"
             },
-            {
-                "name": "Jeremiah Senkpiel",
-                "email": "fishrock123@rocketmail.com",
-                "url": "https://searchbeam.jit.su"
+            "files": [
+                "babel.js",
+                "webpack.js",
+                "lib/**"
+            ],
+            "scripts": {
+                "test": "jest --coverage",
+                "build": "babel src -d lib",
+                "prestart": "yarn build && webpack",
+                "start": "babel-node example/server.js",
+                "prepublish": "yarn build"
             },
-            {
-                "name": "Jonathan Ong",
-                "email": "me@jongleberry.com",
-                "url": "http://jongleberry.com"
-            }
-        ],
-        "users": {
-            "maxogden": true,
-            "byossarian": true,
-            "goodseller": true,
-            "flyslow": true,
-            "svell": true,
-            "chrisyipw": true,
-            "xgheaven": true,
-            "jakub.knejzlik": true,
-            "h0ward": true,
-            "jessaustin": true,
-            "galenandrew": true,
-            "esundahl": true,
-            "gollojs": true,
-            "mjurincic": true,
-            "jerkovicl": true,
-            "cspotcode": true,
-            "r3nya": true,
-            "buzz-dee": true,
-            "germanattanasio": true,
-            "noderat": true,
-            "mastayoda": true,
-            "zolrath": true,
-            "danielbankhead": true,
-            "shaner": true,
-            "davidbraun": true,
-            "gld1982ltd": true,
-            "moimikey": true,
-            "marcellodesales": true,
-            "glebec": true,
-            "pablo.tavarez": true,
-            "iori20091101": true,
-            "wisecolt": true,
-            "byoigres": true,
-            "mojaray2k": true,
-            "maheshj": true,
-            "wgerven": true,
-            "finnhvman": true,
-            "anoubis": true,
-            "sitnin": true,
-            "zixinliango": true,
-            "rocket0191": true,
-            "quafoo": true,
-            "marinru": true,
-            "dankle": true,
-            "papasavva": true,
-            "xinwangwang": true,
-            "snowdream": true,
-            "qingleili": true,
-            "ivan403704409": true,
-            "laomu": true,
-            "emircanok": true,
-            "ldq-first": true,
-            "robinblomberg": true,
-            "shuoshubao": true,
-            "codeinpixel": true,
-            "eyson": true,
-            "hagb4rd": true,
-            "xtx1130": true,
-            "mdedirudianto": true,
-            "imaginegenesis": true,
-            "zhenguo.zhao": true,
-            "arniu": true,
-            "ghostcode521": true,
-            "shide": true
-        },
-        "keywords": [
-            "mime",
-            "types"
-        ],
-        "version": "2.1.35",
-        "dependencies": {
-            "mime-db": "1.52.0"
-        },
-        "devDependencies": {
-            "eslint": "7.32.0",
-            "eslint-config-standard": "14.1.1",
-            "eslint-plugin-import": "2.25.4",
-            "eslint-plugin-markdown": "2.2.1",
-            "eslint-plugin-node": "11.1.0",
-            "eslint-plugin-promise": "5.2.0",
-            "eslint-plugin-standard": "4.1.0",
-            "mocha": "9.2.2",
-            "nyc": "15.1.0"
-        },
-        "engines": {
-            "node": ">= 0.6"
-        },
-        "scripts": {
-            "lint": "eslint .",
-            "test": "mocha --reporter spec test/test.js",
-            "test-ci": "nyc --reporter=lcov --reporter=text npm test",
-            "test-cov": "nyc --reporter=html --reporter=text npm test"
-        },
-        "gitHead": "ef932231c20e716ec27ea159c082322c3c485b66",
-        "dist": {
-            "integrity": "sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==",
-            "shasum": "381a871b62a734450660ae3deee44813f70d959a",
-            "tarball": "https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz",
-            "fileCount": 5,
-            "unpackedSize": 18272,
-            "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiLOC7ACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmpT2w/9GeLyJAyqEq3ZT7nLLZUi4oEEIcrEj7wz8UgiRjyOJPFHZBFG\r\nBJltzgFWbOf62sJvn1ZekIt6kq2OecNFdVjLe1sRHUfE+Irf8Z3oCT9RAwZ8\r\n2JYz8jP7VQ1p6ZsK8gQ43Bc8sBlZB81coPyjCkmwGc8yNy1amT1LMVMU8PRd\r\nuxfMoN0vEis3nARzPlx9fb7KKqS7rFL1zAaSUKhDLomS/gNOLsLtjyrlQo02\r\nvxX43VLGJvK2Wpd7TD/qvGvdGQ5VSm++TUfW3tviXQHwP4Meiy8zU09+OYXO\r\n0+ij2TlSLls7zNoQOWiZgHJYUP0WAZW4doxm9Sk9hA5RLGn3ukgMydYjyq66\r\nZJUCpYr8p2Y+1LcUHEdmgwfqsUdhX55IwyH8DwvlPHf619eZz7dM9aOWtBHS\r\nYAXUuzdJFlem2ezr1FhH1y7A/yPyXr2pqyzx9Qxp/d2yuaSVU82KCa9l7oJI\r\nnV8lubKUFxlJgIbFjkoxmvnDt9q0+MTzntrznHIcuD2wgRRKuk5Ima5udd0o\r\nSy/mLV7inWSaq9dWWzdZpYZDwGve4tcMr8LNlweZ80H2SFWjJdkBhf22i2Gr\r\nKgwvndofh9GfV2hnBFqL6MT/nJDm67lHf/Q/9frsfArA9Pb2OhapTzHthg08\r\nnNpZRTFrJfHM03pS8bEc33gaAQupl0vL+Fw=\r\n=eKhF\r\n-----END PGP SIGNATURE-----\r\n",
-            "signatures": [
+            "dependencies": {
+                "hoist-non-react-statics": "^2.5.0",
+                "prop-types": "^15.5.0",
+                "react-display-name": "^0.2.3"
+            },
+            "devDependencies": {
+                "babel-cli": "^6.26.0",
+                "babel-loader": "^7.1.2",
+                "babel-plugin-dynamic-import-node": "^1.1.0",
+                "babel-plugin-module-resolver": "^2.7.1",
+                "babel-plugin-transform-async-to-generator": "^6.24.1",
+                "babel-plugin-transform-class-properties": "^6.24.1",
+                "babel-plugin-transform-object-assign": "^6.22.0",
+                "babel-plugin-transform-object-rest-spread": "^6.26.0",
+                "babel-preset-es2015": "^6.24.1",
+                "babel-preset-react": "^6.24.1",
+                "express": "^4.16.1",
+                "flow-bin": "^0.41.0",
+                "jest": "^21.2.1",
+                "react": "^16.0.0",
+                "react-dom": "^16.0.0",
+                "react-test-renderer": "^16.0.0",
+                "webpack": "^3.6.0"
+            },
+            "peerDependencies": {
+                "react": "*"
+            },
+            "gitHead": "57e3d33d274c00947c83e232083360712568b767",
+            "bugs": {
+                "url": "https://github.com/adam-26/react-chunk/issues"
+            },
+            "homepage": "https://github.com/adam-26/react-chunk#readme",
+            "_id": "react-chunk@1.0.0",
+            "_npmVersion": "5.5.1",
+            "_nodeVersion": "8.9.1",
+            "_npmUser": {
+                "name": "adam-26",
+                "email": "adam-26@outlook.com"
+            },
+            "dist": {
+                "integrity": "sha512-jTW9UTEdE7oXqQSaGZo4HQB1OE3zE5LipQtQv2kE2MiQ/eZKB0bsrX1gY+GvQmCLzvDrmqJjruGfIp3KL0N68w==",
+                "shasum": "a2effd51890bbff23cde71c76f447975d873146c",
+                "tarball": "https://registry.npmjs.org/react-chunk/-/react-chunk-1.0.0.tgz",
+                "fileCount": 9,
+                "unpackedSize": 55191,
+                "signatures": [
+                    {
+                        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                        "sig": "MEUCIQCAJ9h5qwxrICOeC6gS/2zHtGmFFrLQRFzr4NBOF03KNQIgQfF8/epZvM0o0HwY92isVwxkB+xfE13hCJyiiep+VeY="
+                    }
+                ]
+            },
+            "maintainers": [
                 {
-                    "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
-                    "sig": "MEQCIE0POPFsQ1njxVBqIqEP9T3OT48luQI5vMvaem7SelGFAiAqt9YWLmp/N3wfzUGgSr+0ZPqGVYT9H644ZN7yqpytxQ=="
+                    "name": "adam-26",
+                    "email": "adam-26@outlook.com"
                 }
-            ]
+            ],
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/react-chunk_1.0.0_1519434761712_0.41456894385647347"
+            },
+            "_hasShrinkwrap": false
         },
-        "directories": {}
-    }
+        "1.1.0": {
+            "name": "react-chunk",
+            "version": "1.1.0",
+            "description": "A higher order component for dynamically importing components, forked from react-loadable.",
+            "main": "lib/index.js",
+            "author": {
+                "name": "adam-26"
+            },
+            "license": "MIT",
+            "repository": {
+                "type": "git",
+                "url": "git+https://github.com/adam-26/react-chunk.git"
+            },
+            "files": [
+                "babel.js",
+                "webpack.js",
+                "lib/**"
+            ],
+            "scripts": {
+                "pretest": "npm run lint",
+                "test": "jest --coverage",
+                "prebuild": "npm run lint",
+                "build": "rm -rf ./lib && babel src -d lib",
+                "prestart": "npm run build && webpack",
+                "start": "babel-node example/server.js",
+                "prepublish": "npm run build",
+                "lint": "eslint ./src",
+                "ci-jest": "TEST_REPORT_PATH=./.build/test jest --ci --coverage --coverageDirectory ./.build/coverage --testResultsProcessor='./node_modules/jest-junit-reporter'",
+                "ci-lint": "eslint ./src --format junit --output-file ./.build/lint/eslint.xml"
+            },
+            "dependencies": {
+                "hoist-non-react-statics": "^2.5.0",
+                "prop-types": "^15.5.0",
+                "react-display-name": "^0.2.3"
+            },
+            "devDependencies": {
+                "babel-cli": "^6.26.0",
+                "babel-eslint": "^8.2.2",
+                "babel-loader": "^7.1.2",
+                "babel-plugin-dynamic-import-node": "^1.1.0",
+                "babel-plugin-module-resolver": "^2.7.1",
+                "babel-plugin-transform-async-to-generator": "^6.24.1",
+                "babel-plugin-transform-class-properties": "^6.24.1",
+                "babel-plugin-transform-object-assign": "^6.22.0",
+                "babel-plugin-transform-object-rest-spread": "^6.26.0",
+                "babel-preset-es2015": "^6.24.1",
+                "babel-preset-react": "^6.24.1",
+                "eslint": "^4.18.1",
+                "eslint-plugin-jest": "^21.12.2",
+                "eslint-plugin-react": "^7.7.0",
+                "express": "^4.16.1",
+                "flow-bin": "^0.41.0",
+                "jest": "^21.2.1",
+                "jest-cli": "^22.4.2",
+                "jest-junit-reporter": "^1.1.0",
+                "react": "^16.0.0",
+                "react-dom": "^16.0.0",
+                "react-test-renderer": "^16.0.0",
+                "standard-version": "^4.3.0",
+                "webpack": "^3.6.0"
+            },
+            "peerDependencies": {
+                "react": "*"
+            },
+            "gitHead": "3e3264abbe8a31c8a1c52cfda02fedadae13a82e",
+            "bugs": {
+                "url": "https://github.com/adam-26/react-chunk/issues"
+            },
+            "homepage": "https://github.com/adam-26/react-chunk#readme",
+            "_id": "react-chunk@1.1.0",
+            "_npmVersion": "5.3.0",
+            "_nodeVersion": "8.4.0",
+            "_npmUser": {
+                "name": "adam-26",
+                "email": "adam-26@outlook.com"
+            },
+            "dist": {
+                "integrity": "sha512-LHVGG2TGBW43rJBn/x+YI2P3vzqawHTBp2zQMr20Y8ILIjNNoSMIzq21HrpPnhkfXnkjrae9AhOGUpjZFhnqog==",
+                "shasum": "41b8a850bee1e7db7ea6f795703c0dc0fe155e19",
+                "tarball": "https://registry.npmjs.org/react-chunk/-/react-chunk-1.1.0.tgz",
+                "fileCount": 10,
+                "unpackedSize": 59356,
+                "signatures": [
+                    {
+                        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                        "sig": "MEYCIQDuHJpkboYC8ylY25qnQB5Tz6Txn7rgLApLWycjLW91ggIhAOFub+ClsSds6kSgw8udbRab+CBbqGVwVHRBh0lYQ5mI"
+                    }
+                ]
+            },
+            "maintainers": [
+                {
+                    "name": "adam-26",
+                    "email": "adam-26@outlook.com"
+                }
+            ],
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/react-chunk_1.1.0_1519472874105_0.8412199024893765"
+            },
+            "_hasShrinkwrap": false
+        },
+        "1.2.0": {
+            "name": "react-chunk",
+            "version": "1.2.0",
+            "description": "A higher order component for dynamically importing components, forked from react-loadable.",
+            "main": "lib/index.js",
+            "author": {
+                "name": "adam-26"
+            },
+            "license": "MIT",
+            "repository": {
+                "type": "git",
+                "url": "git+https://github.com/adam-26/react-chunk.git"
+            },
+            "files": [
+                "babel.js",
+                "webpack.js",
+                "lib/**"
+            ],
+            "scripts": {
+                "pretest": "npm run lint",
+                "test": "jest --coverage",
+                "prebuild": "npm run lint",
+                "build": "rm -rf ./lib && babel src -d lib",
+                "prestart": "npm run build && webpack",
+                "start": "babel-node example/server.js",
+                "prepublish": "npm run build",
+                "lint": "eslint ./src",
+                "ci-jest": "TEST_REPORT_PATH=./.build/test jest --ci --coverage --coverageDirectory ./.build/coverage --testResultsProcessor='./node_modules/jest-junit-reporter'",
+                "ci-lint": "eslint ./src --format junit --output-file ./.build/lint/eslint.xml"
+            },
+            "dependencies": {
+                "hoist-non-react-statics": "^2.5.0",
+                "prop-types": "^15.5.0",
+                "react-display-name": "^0.2.3"
+            },
+            "devDependencies": {
+                "babel-cli": "^6.26.0",
+                "babel-eslint": "^8.2.2",
+                "babel-loader": "^7.1.2",
+                "babel-plugin-dynamic-import-node": "^1.1.0",
+                "babel-plugin-module-resolver": "^2.7.1",
+                "babel-plugin-transform-async-to-generator": "^6.24.1",
+                "babel-plugin-transform-class-properties": "^6.24.1",
+                "babel-plugin-transform-object-assign": "^6.22.0",
+                "babel-plugin-transform-object-rest-spread": "^6.26.0",
+                "babel-preset-es2015": "^6.24.1",
+                "babel-preset-react": "^6.24.1",
+                "eslint": "^4.18.1",
+                "eslint-plugin-jest": "^21.12.2",
+                "eslint-plugin-react": "^7.7.0",
+                "express": "^4.16.1",
+                "flow-bin": "^0.41.0",
+                "jest": "^21.2.1",
+                "jest-cli": "^22.4.2",
+                "jest-junit-reporter": "^1.1.0",
+                "react": "^16.0.0",
+                "react-dom": "^16.0.0",
+                "react-test-renderer": "^16.0.0",
+                "standard-version": "^4.3.0",
+                "webpack": "^3.6.0"
+            },
+            "peerDependencies": {
+                "react": "*"
+            },
+            "gitHead": "e852ff8b3c7e52d3f4e581b7db99e4a478d8e70d",
+            "bugs": {
+                "url": "https://github.com/adam-26/react-chunk/issues"
+            },
+            "homepage": "https://github.com/adam-26/react-chunk#readme",
+            "_id": "react-chunk@1.2.0",
+            "_npmVersion": "5.3.0",
+            "_nodeVersion": "8.4.0",
+            "_npmUser": {
+                "name": "adam-26",
+                "email": "adam-26@outlook.com"
+            },
+            "dist": {
+                "integrity": "sha512-zjfsTNrU+SyBzM97yMr2XC2BehjwUhaRQsVrEj3eEmOuEz3WJD+v8jY6CQA7f/+sOa82bLK026FEfuGu0NEefg==",
+                "shasum": "35d625a81fb7518708667fda35b5ac0fe499a6ed",
+                "tarball": "https://registry.npmjs.org/react-chunk/-/react-chunk-1.2.0.tgz",
+                "fileCount": 10,
+                "unpackedSize": 60079,
+                "signatures": [
+                    {
+                        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                        "sig": "MEUCIHXZ9mLBhuTi5eat0EBd+j2DKUBEZnfczDjnfEhZ4ThjAiEA3Vo73IxAK8+irtESb4JTYvPvpi0xdnuEYP8GrzSfTjg="
+                    }
+                ]
+            },
+            "maintainers": [
+                {
+                    "name": "adam-26",
+                    "email": "adam-26@outlook.com"
+                }
+            ],
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/react-chunk_1.2.0_1519475029838_0.8963306357935699"
+            },
+            "_hasShrinkwrap": false
+        },
+        "7.0.0": {
+            "name": "react-chunk",
+            "version": "7.0.0",
+            "description": "A higher order component for dynamically importing components, forked from react-loadable.",
+            "main": "lib/index.js",
+            "author": {
+                "name": "adam-26"
+            },
+            "license": "MIT",
+            "repository": {
+                "type": "git",
+                "url": "git+https://github.com/adam-26/react-chunk.git"
+            },
+            "files": [
+                "babel.js",
+                "webpack.js",
+                "lib/**"
+            ],
+            "scripts": {
+                "pretest": "npm run lint",
+                "test": "jest --coverage",
+                "prebuild": "npm run lint",
+                "build": "rm -rf ./lib && babel src -d lib",
+                "prestart": "npm run build && webpack",
+                "start": "babel-node example/server.js",
+                "prepublish": "npm run build",
+                "lint": "eslint ./src",
+                "ci-jest": "TEST_REPORT_PATH=./.build/test jest --ci --coverage --coverageDirectory ./.build/coverage --testResultsProcessor='./node_modules/jest-junit-reporter'",
+                "ci-lint": "eslint ./src --format junit --output-file ./.build/lint/eslint.xml"
+            },
+            "dependencies": {
+                "hoist-non-react-statics": "^2.5.0",
+                "prop-types": "^15.5.0",
+                "react-display-name": "^0.2.3"
+            },
+            "devDependencies": {
+                "babel-cli": "^6.26.0",
+                "babel-eslint": "^8.2.2",
+                "babel-loader": "^7.1.2",
+                "babel-plugin-dynamic-import-node": "^1.1.0",
+                "babel-plugin-module-resolver": "^2.7.1",
+                "babel-plugin-transform-async-to-generator": "^6.24.1",
+                "babel-plugin-transform-class-properties": "^6.24.1",
+                "babel-plugin-transform-object-assign": "^6.22.0",
+                "babel-plugin-transform-object-rest-spread": "^6.26.0",
+                "babel-preset-es2015": "^6.24.1",
+                "babel-preset-react": "^6.24.1",
+                "eslint": "^4.18.1",
+                "eslint-plugin-jest": "^21.12.2",
+                "eslint-plugin-react": "^7.7.0",
+                "express": "^4.16.1",
+                "flow-bin": "^0.41.0",
+                "jest": "^21.2.1",
+                "jest-cli": "^22.4.2",
+                "jest-junit-reporter": "^1.1.0",
+                "react": "^16.0.0",
+                "react-dom": "^16.0.0",
+                "react-test-renderer": "^16.0.0",
+                "standard-version": "^4.3.0",
+                "webpack": "^3.6.0"
+            },
+            "peerDependencies": {
+                "react": "*"
+            },
+            "gitHead": "5957d0668bbcd6fb8470c0bfef136e543a137e1a",
+            "bugs": {
+                "url": "https://github.com/adam-26/react-chunk/issues"
+            },
+            "homepage": "https://github.com/adam-26/react-chunk#readme",
+            "_id": "react-chunk@7.0.0",
+            "_npmVersion": "5.3.0",
+            "_nodeVersion": "8.4.0",
+            "_npmUser": {
+                "name": "adam-26",
+                "email": "adam-26@outlook.com"
+            },
+            "dist": {
+                "integrity": "sha512-AMYg6YkKYdpogmKzp6jFwhoLt7Vg4MumqoqoJwr9eK5zGK497PG86uLc35rHZbRTfKmVrHhSu9L7OCVarsotgg==",
+                "shasum": "98eb478c4e10efe822f0ed0bc8689a538b680d02",
+                "tarball": "https://registry.npmjs.org/react-chunk/-/react-chunk-7.0.0.tgz",
+                "fileCount": 10,
+                "unpackedSize": 60937,
+                "signatures": [
+                    {
+                        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                        "sig": "MEQCIGOjR0WYqLmN8i7GiWpX8mvXR4EnNeA8Zt/DAq68ohb6AiAnPv4/xSMZ0yAyNgkT3O6BGIxAM6cWyI5QEs7j90oQ+Q=="
+                    }
+                ]
+            },
+            "maintainers": [
+                {
+                    "name": "adam-26",
+                    "email": "adam-26@outlook.com"
+                }
+            ],
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/react-chunk_7.0.0_1519479734376_0.3669698290553558"
+            },
+            "_hasShrinkwrap": false
+        },
+        "7.0.1": {
+            "name": "react-chunk",
+            "version": "7.0.1",
+            "description": "A higher order component for dynamically importing components, forked from react-loadable.",
+            "main": "lib/index.js",
+            "author": {
+                "name": "adam-26"
+            },
+            "license": "MIT",
+            "repository": {
+                "type": "git",
+                "url": "git+https://github.com/adam-26/react-chunk.git"
+            },
+            "files": [
+                "babel.js",
+                "webpack.js",
+                "lib/**"
+            ],
+            "scripts": {
+                "pretest": "npm run lint",
+                "test": "jest --coverage",
+                "prebuild": "npm run lint",
+                "build": "rm -rf ./lib && babel src -d lib",
+                "prestart": "npm run build && webpack",
+                "start": "babel-node example/server.js",
+                "prepublish": "npm run build",
+                "lint": "eslint ./src",
+                "ci-jest": "TEST_REPORT_PATH=./.build/test jest --ci --coverage --coverageDirectory ./.build/coverage --testResultsProcessor='./node_modules/jest-junit-reporter'",
+                "ci-lint": "eslint ./src --format junit --output-file ./.build/lint/eslint.xml"
+            },
+            "dependencies": {
+                "hoist-non-react-statics": "^2.5.0",
+                "prop-types": "^15.5.0",
+                "react-display-name": "^0.2.3"
+            },
+            "devDependencies": {
+                "babel-cli": "^6.26.0",
+                "babel-eslint": "^8.2.2",
+                "babel-loader": "^7.1.2",
+                "babel-plugin-dynamic-import-node": "^1.1.0",
+                "babel-plugin-module-resolver": "^2.7.1",
+                "babel-plugin-transform-async-to-generator": "^6.24.1",
+                "babel-plugin-transform-class-properties": "^6.24.1",
+                "babel-plugin-transform-object-assign": "^6.22.0",
+                "babel-plugin-transform-object-rest-spread": "^6.26.0",
+                "babel-preset-es2015": "^6.24.1",
+                "babel-preset-react": "^6.24.1",
+                "eslint": "^4.18.1",
+                "eslint-plugin-jest": "^21.12.2",
+                "eslint-plugin-react": "^7.7.0",
+                "express": "^4.16.1",
+                "flow-bin": "^0.41.0",
+                "jest": "^21.2.1",
+                "jest-cli": "^22.4.2",
+                "jest-junit-reporter": "^1.1.0",
+                "react": "^16.0.0",
+                "react-dom": "^16.0.0",
+                "react-test-renderer": "^16.0.0",
+                "standard-version": "^4.3.0",
+                "webpack": "^3.6.0"
+            },
+            "peerDependencies": {
+                "react": "*"
+            },
+            "gitHead": "1cb216debd4e936b0fdca2097b5e27edfb1d2d63",
+            "bugs": {
+                "url": "https://github.com/adam-26/react-chunk/issues"
+            },
+            "homepage": "https://github.com/adam-26/react-chunk#readme",
+            "_id": "react-chunk@7.0.1",
+            "_npmVersion": "5.3.0",
+            "_nodeVersion": "8.4.0",
+            "_npmUser": {
+                "name": "adam-26",
+                "email": "adam-26@outlook.com"
+            },
+            "dist": {
+                "integrity": "sha512-Y398/ymERgv5Bm6heKY3VIqz7hYc/TCUZq2KGtV/ASmHy2xgtL/UtoBnhQicGWWOeu0zn+oIQuws+fL02EGS9A==",
+                "shasum": "d4d03fdedd178bf1dc878675a30004e1ff039fc7",
+                "tarball": "https://registry.npmjs.org/react-chunk/-/react-chunk-7.0.1.tgz",
+                "fileCount": 10,
+                "unpackedSize": 61333,
+                "signatures": [
+                    {
+                        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                        "sig": "MEQCIDefXC0LASqLhvTXBttRlFHyh+Ylm+T57lnwCiKkMjmAAiBVA/KPH5G9Zux2JlQSGmewMop9mIMX54eJv+GjHDrocA=="
+                    }
+                ]
+            },
+            "maintainers": [
+                {
+                    "name": "adam-26",
+                    "email": "adam-26@outlook.com"
+                }
+            ],
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/react-chunk_7.0.1_1519487302041_0.6545671326042104"
+            },
+            "_hasShrinkwrap": false
+        },
+        "7.0.2": {
+            "name": "react-chunk",
+            "version": "7.0.2",
+            "description": "A higher order component for dynamically importing components, forked from react-loadable.",
+            "main": "lib/index.js",
+            "author": {
+                "name": "adam-26"
+            },
+            "license": "MIT",
+            "repository": {
+                "type": "git",
+                "url": "git+https://github.com/adam-26/react-chunk.git"
+            },
+            "files": [
+                "babel.js",
+                "webpack.js",
+                "lib/**"
+            ],
+            "scripts": {
+                "pretest": "npm run lint",
+                "test": "jest --coverage",
+                "prebuild": "npm run lint",
+                "build": "rm -rf ./lib && babel src -d lib",
+                "prestart": "npm run build && webpack",
+                "start": "babel-node example/server.js",
+                "prepublish": "npm run build",
+                "lint": "eslint ./src",
+                "ci-jest": "TEST_REPORT_PATH=./.build/test jest --ci --coverage --coverageDirectory ./.build/coverage --testResultsProcessor='./node_modules/jest-junit-reporter'",
+                "ci-lint": "eslint ./src --format junit --output-file ./.build/lint/eslint.xml"
+            },
+            "dependencies": {
+                "hoist-non-react-statics": "^2.5.0",
+                "prop-types": "^15.5.0",
+                "react-display-name": "^0.2.3"
+            },
+            "devDependencies": {
+                "babel-cli": "^6.26.0",
+                "babel-eslint": "^8.2.2",
+                "babel-loader": "^7.1.2",
+                "babel-plugin-dynamic-import-node": "^1.1.0",
+                "babel-plugin-module-resolver": "^2.7.1",
+                "babel-plugin-transform-async-to-generator": "^6.24.1",
+                "babel-plugin-transform-class-properties": "^6.24.1",
+                "babel-plugin-transform-object-assign": "^6.22.0",
+                "babel-plugin-transform-object-rest-spread": "^6.26.0",
+                "babel-preset-es2015": "^6.24.1",
+                "babel-preset-react": "^6.24.1",
+                "eslint": "^4.18.1",
+                "eslint-plugin-jest": "^21.12.2",
+                "eslint-plugin-react": "^7.7.0",
+                "express": "^4.16.1",
+                "flow-bin": "^0.41.0",
+                "jest": "^21.2.1",
+                "jest-cli": "^22.4.2",
+                "jest-junit-reporter": "^1.1.0",
+                "react": "^16.0.0",
+                "react-dom": "^16.0.0",
+                "react-test-renderer": "^16.0.0",
+                "standard-version": "^4.3.0",
+                "webpack": "^3.6.0"
+            },
+            "peerDependencies": {
+                "react": "*"
+            },
+            "gitHead": "7fa653b31a19afc3d8afdf9968f10ec7d9af96d5",
+            "bugs": {
+                "url": "https://github.com/adam-26/react-chunk/issues"
+            },
+            "homepage": "https://github.com/adam-26/react-chunk#readme",
+            "_id": "react-chunk@7.0.2",
+            "_npmVersion": "5.3.0",
+            "_nodeVersion": "8.4.0",
+            "_npmUser": {
+                "name": "adam-26",
+                "email": "adam-26@outlook.com"
+            },
+            "dist": {
+                "integrity": "sha512-dTzQ0hFQ9ZcUOnRyuatouzftRLi800TqufXF0E5av3NLQpONDZa7+J1O0DfxdvxOfepGswsSf8vYXAyvyKiW4Q==",
+                "shasum": "2f0bede9026789d90c40644ebcdaf3c87c03ad57",
+                "tarball": "https://registry.npmjs.org/react-chunk/-/react-chunk-7.0.2.tgz",
+                "fileCount": 10,
+                "unpackedSize": 61968,
+                "signatures": [
+                    {
+                        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                        "sig": "MEUCIEC6qH6NRB27LnKdedXxI8rvm/7GDXyjkutK8bbNG0xkAiEAqEHzDqfelXtvkPf5ne87XqhJy3hp+NzqjFdTkvjbFwM="
+                    }
+                ]
+            },
+            "maintainers": [
+                {
+                    "name": "adam-26",
+                    "email": "adam-26@outlook.com"
+                }
+            ],
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/react-chunk_7.0.2_1519488870702_0.3871956028923631"
+            },
+            "_hasShrinkwrap": false
+        },
+        "7.0.3": {
+            "name": "react-chunk",
+            "version": "7.0.3",
+            "description": "A higher order component for dynamically importing components, forked from react-loadable.",
+            "main": "lib/index.js",
+            "author": {
+                "name": "adam-26"
+            },
+            "license": "MIT",
+            "repository": {
+                "type": "git",
+                "url": "git+https://github.com/adam-26/react-chunk.git"
+            },
+            "files": [
+                "babel.js",
+                "webpack.js",
+                "Recorder.js",
+                "lib/**"
+            ],
+            "scripts": {
+                "pretest": "npm run lint",
+                "test": "jest --coverage",
+                "prebuild": "npm run lint",
+                "build": "rm -rf ./lib && babel src -d lib",
+                "prestart": "npm run build && webpack",
+                "start": "babel-node example/server.js",
+                "prepublish": "npm run build",
+                "lint": "eslint ./src",
+                "ci-jest": "TEST_REPORT_PATH=./.build/test jest --ci --coverage --coverageDirectory ./.build/coverage --testResultsProcessor='./node_modules/jest-junit-reporter'",
+                "ci-lint": "eslint ./src --format junit --output-file ./.build/lint/eslint.xml"
+            },
+            "dependencies": {
+                "hoist-non-react-statics": "^2.5.0",
+                "prop-types": "^15.5.0",
+                "react-display-name": "^0.2.3"
+            },
+            "devDependencies": {
+                "babel-cli": "^6.26.0",
+                "babel-eslint": "^8.2.2",
+                "babel-loader": "^7.1.2",
+                "babel-plugin-dynamic-import-node": "^1.1.0",
+                "babel-plugin-module-resolver": "^2.7.1",
+                "babel-plugin-transform-async-to-generator": "^6.24.1",
+                "babel-plugin-transform-class-properties": "^6.24.1",
+                "babel-plugin-transform-object-assign": "^6.22.0",
+                "babel-plugin-transform-object-rest-spread": "^6.26.0",
+                "babel-preset-es2015": "^6.24.1",
+                "babel-preset-react": "^6.24.1",
+                "eslint": "^4.18.1",
+                "eslint-plugin-jest": "^21.12.2",
+                "eslint-plugin-react": "^7.7.0",
+                "express": "^4.16.1",
+                "flow-bin": "^0.41.0",
+                "jest": "^21.2.1",
+                "jest-cli": "^22.4.2",
+                "jest-junit-reporter": "^1.1.0",
+                "react": "^16.0.0",
+                "react-dom": "^16.0.0",
+                "react-test-renderer": "^16.0.0",
+                "standard-version": "^4.3.0",
+                "webpack": "^3.6.0"
+            },
+            "peerDependencies": {
+                "react": "*"
+            },
+            "gitHead": "2c052a8f1e4a1905048393b24d99b06b919d65b1",
+            "bugs": {
+                "url": "https://github.com/adam-26/react-chunk/issues"
+            },
+            "homepage": "https://github.com/adam-26/react-chunk#readme",
+            "_id": "react-chunk@7.0.3",
+            "_npmVersion": "5.3.0",
+            "_nodeVersion": "8.4.0",
+            "_npmUser": {
+                "name": "adam-26",
+                "email": "adam-26@outlook.com"
+            },
+            "dist": {
+                "integrity": "sha512-suTgoWpZTD0FFkrdQp4a04PtIrDeDYZQYnIqG4swy4O3vBxB++ZFD4EfnvFP+8Zq2V3IP0hfof3PW8p8ASL9lw==",
+                "shasum": "c8eb389fe2ab4a29082a52507651b94eba29b7ac",
+                "tarball": "https://registry.npmjs.org/react-chunk/-/react-chunk-7.0.3.tgz",
+                "fileCount": 11,
+                "unpackedSize": 62408,
+                "signatures": [
+                    {
+                        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                        "sig": "MEUCIBZerSLqPP+4bCSiA57sw9YpzwouFQhN21mGPlb2w1rOAiEApQDFn6NNcDcnudRNXWUliuEcW3TaORewmgrRn9U4VFA="
+                    }
+                ]
+            },
+            "maintainers": [
+                {
+                    "name": "adam-26",
+                    "email": "adam-26@outlook.com"
+                }
+            ],
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/react-chunk_7.0.3_1519673905040_0.4549081734148377"
+            },
+            "_hasShrinkwrap": false
+        },
+        "7.1.0": {
+            "name": "react-chunk",
+            "version": "7.1.0",
+            "description": "A higher order component for dynamically importing components, forked from react-loadable.",
+            "main": "lib/index.js",
+            "author": {
+                "name": "adam-26"
+            },
+            "license": "MIT",
+            "repository": {
+                "type": "git",
+                "url": "git+https://github.com/adam-26/react-chunk.git"
+            },
+            "files": [
+                "babel.js",
+                "webpack.js",
+                "Recorder.js",
+                "lib/**"
+            ],
+            "scripts": {
+                "pretest": "npm run lint",
+                "test": "jest --coverage",
+                "prebuild": "npm run lint",
+                "build": "rm -rf ./lib && babel src -d lib",
+                "prestart": "npm run build && webpack",
+                "start": "babel-node example/server.js",
+                "prepublish": "npm run build",
+                "lint": "eslint ./src",
+                "ci-jest": "TEST_REPORT_PATH=./.build/test jest --ci --coverage --coverageDirectory ./.build/coverage --testResultsProcessor='./node_modules/jest-junit-reporter'",
+                "ci-lint": "eslint ./src --format junit --output-file ./.build/lint/eslint.xml"
+            },
+            "dependencies": {
+                "hoist-non-react-statics": "^2.5.0",
+                "invariant": "^2.2.3",
+                "prop-types": "^15.5.0",
+                "react-display-name": "^0.2.3"
+            },
+            "devDependencies": {
+                "babel-cli": "^6.26.0",
+                "babel-eslint": "^8.2.2",
+                "babel-loader": "^7.1.2",
+                "babel-plugin-dynamic-import-node": "^1.1.0",
+                "babel-plugin-module-resolver": "^2.7.1",
+                "babel-plugin-transform-async-to-generator": "^6.24.1",
+                "babel-plugin-transform-class-properties": "^6.24.1",
+                "babel-plugin-transform-object-assign": "^6.22.0",
+                "babel-plugin-transform-object-rest-spread": "^6.26.0",
+                "babel-preset-es2015": "^6.24.1",
+                "babel-preset-react": "^6.24.1",
+                "eslint": "^4.18.1",
+                "eslint-plugin-jest": "^21.12.2",
+                "eslint-plugin-react": "^7.7.0",
+                "express": "^4.16.1",
+                "flow-bin": "^0.41.0",
+                "jest": "^21.2.1",
+                "jest-cli": "^22.4.2",
+                "jest-junit-reporter": "^1.1.0",
+                "react": "^16.0.0",
+                "react-dom": "^16.0.0",
+                "react-test-renderer": "^16.0.0",
+                "standard-version": "^4.3.0",
+                "webpack": "^3.6.0"
+            },
+            "peerDependencies": {
+                "react": "*"
+            },
+            "gitHead": "85173d895339f6b8ab4db8c53698d4bcd4366fd4",
+            "bugs": {
+                "url": "https://github.com/adam-26/react-chunk/issues"
+            },
+            "homepage": "https://github.com/adam-26/react-chunk#readme",
+            "_id": "react-chunk@7.1.0",
+            "_npmVersion": "5.3.0",
+            "_nodeVersion": "8.4.0",
+            "_npmUser": {
+                "name": "adam-26",
+                "email": "adam-26@outlook.com"
+            },
+            "dist": {
+                "integrity": "sha512-WsPve3yMtC3MZhSd1lkHEVRLpqS6Vftr6sHtcKpjip75mFrappiTZqg5pAcKsWO4EcQQhbucfthA1UfWeK5t3w==",
+                "shasum": "76d25b4ebe7a04919911cc6c2be3e6b7232bd628",
+                "tarball": "https://registry.npmjs.org/react-chunk/-/react-chunk-7.1.0.tgz",
+                "fileCount": 11,
+                "unpackedSize": 64543,
+                "signatures": [
+                    {
+                        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                        "sig": "MEYCIQDNNalsqeFuGyz2Miz4J47w7IoiK8ojQ06qwXLepjvkNwIhAMOk5FwIRzPL5sNGsuQ9tnVlskrto0DE0WlNqz9dKo1l"
+                    }
+                ]
+            },
+            "maintainers": [
+                {
+                    "name": "adam-26",
+                    "email": "adam-26@outlook.com"
+                }
+            ],
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/react-chunk_7.1.0_1519939573548_0.5666046506399325"
+            },
+            "_hasShrinkwrap": false
+        },
+        "7.1.1": {
+            "name": "react-chunk",
+            "version": "7.1.1",
+            "description": "A higher order component for dynamically importing components, forked from react-loadable.",
+            "main": "lib/index.js",
+            "author": {
+                "name": "adam-26"
+            },
+            "license": "MIT",
+            "repository": {
+                "type": "git",
+                "url": "git+https://github.com/adam-26/react-chunk.git"
+            },
+            "files": [
+                "babel.js",
+                "webpack.js",
+                "Recorder.js",
+                "lib/**"
+            ],
+            "scripts": {
+                "pretest": "npm run lint",
+                "test": "jest --coverage",
+                "prebuild": "npm run lint",
+                "build": "rm -rf ./lib && babel src -d lib",
+                "prestart": "npm run build && webpack",
+                "start": "babel-node example/server.js",
+                "prepublish": "npm run build",
+                "lint": "eslint ./src",
+                "ci-jest": "TEST_REPORT_PATH=./.build/test jest --ci --coverage --coverageDirectory ./.build/coverage --testResultsProcessor='./node_modules/jest-junit-reporter'",
+                "ci-lint": "eslint ./src --format junit --output-file ./.build/lint/eslint.xml"
+            },
+            "dependencies": {
+                "hoist-non-react-statics": "^2.5.0",
+                "invariant": "^2.2.3",
+                "prop-types": "^15.5.0",
+                "react-display-name": "^0.2.3"
+            },
+            "devDependencies": {
+                "babel-cli": "^6.26.0",
+                "babel-eslint": "^8.2.2",
+                "babel-loader": "^7.1.2",
+                "babel-plugin-dynamic-import-node": "^1.1.0",
+                "babel-plugin-module-resolver": "^2.7.1",
+                "babel-plugin-transform-async-to-generator": "^6.24.1",
+                "babel-plugin-transform-class-properties": "^6.24.1",
+                "babel-plugin-transform-object-assign": "^6.22.0",
+                "babel-plugin-transform-object-rest-spread": "^6.26.0",
+                "babel-preset-es2015": "^6.24.1",
+                "babel-preset-react": "^6.24.1",
+                "eslint": "^4.18.1",
+                "eslint-plugin-jest": "^21.12.2",
+                "eslint-plugin-react": "^7.7.0",
+                "express": "^4.16.1",
+                "flow-bin": "^0.41.0",
+                "jest": "^21.2.1",
+                "jest-cli": "^22.4.2",
+                "jest-junit-reporter": "^1.1.0",
+                "react": "^16.0.0",
+                "react-dom": "^16.0.0",
+                "react-test-renderer": "^16.0.0",
+                "standard-version": "^4.3.0",
+                "webpack": "^3.6.0"
+            },
+            "peerDependencies": {
+                "react": "*"
+            },
+            "gitHead": "c79761260df004fe1c824d307206583ed9d78388",
+            "bugs": {
+                "url": "https://github.com/adam-26/react-chunk/issues"
+            },
+            "homepage": "https://github.com/adam-26/react-chunk#readme",
+            "_id": "react-chunk@7.1.1",
+            "_npmVersion": "5.3.0",
+            "_nodeVersion": "8.4.0",
+            "_npmUser": {
+                "name": "adam-26",
+                "email": "adam-26@outlook.com"
+            },
+            "dist": {
+                "integrity": "sha512-pZ8OjDVl0vUOOWTsahYRc5wPjNjsf4okpZxWxdRhx/zB0TRnd0MXFERoLyh3P0tfc1ZQWw3TW5R0ZHuZnYWPZQ==",
+                "shasum": "9ac17c06bd8cdbd56086c56bfa80ac3b714f8df9",
+                "tarball": "https://registry.npmjs.org/react-chunk/-/react-chunk-7.1.1.tgz",
+                "fileCount": 11,
+                "unpackedSize": 65422,
+                "signatures": [
+                    {
+                        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                        "sig": "MEUCIAvwxC4KsEYS/abqLSkyYWwWyquwZwi7OYvN+ATBkSTsAiEAkgp/eIAUVhewmPzjpljqLPKFYV1gg4ggvg1QznN+Lcs="
+                    }
+                ]
+            },
+            "maintainers": [
+                {
+                    "name": "adam-26",
+                    "email": "adam-26@outlook.com"
+                }
+            ],
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/react-chunk_7.1.1_1519941255575_0.22876949063408114"
+            },
+            "_hasShrinkwrap": false
+        },
+        "7.2.0": {
+            "name": "react-chunk",
+            "version": "7.2.0",
+            "description": "A higher order component for dynamically importing components, forked from react-loadable.",
+            "main": "lib/index.js",
+            "author": {
+                "name": "adam-26"
+            },
+            "license": "MIT",
+            "repository": {
+                "type": "git",
+                "url": "git+https://github.com/adam-26/react-chunk.git"
+            },
+            "files": [
+                "babel.js",
+                "webpack.js",
+                "Recorder.js",
+                "lib/**"
+            ],
+            "scripts": {
+                "pretest": "npm run lint",
+                "test": "jest --coverage",
+                "prebuild": "npm run lint",
+                "build": "rm -rf ./lib && babel src -d lib",
+                "prestart": "npm run build && webpack",
+                "start": "babel-node example/server.js",
+                "prepublish": "npm run build",
+                "lint": "eslint ./src",
+                "ci-jest": "TEST_REPORT_PATH=./.build/test jest --ci --coverage --coverageDirectory ./.build/coverage --testResultsProcessor='./node_modules/jest-junit-reporter'",
+                "ci-lint": "eslint ./src --format junit --output-file ./.build/lint/eslint.xml"
+            },
+            "dependencies": {
+                "hoist-non-react-statics": "^2.5.0",
+                "invariant": "^2.2.3",
+                "prop-types": "^15.5.0",
+                "react-display-name": "^0.2.3"
+            },
+            "devDependencies": {
+                "babel-cli": "^6.26.0",
+                "babel-eslint": "^8.2.2",
+                "babel-loader": "^7.1.2",
+                "babel-plugin-dynamic-import-node": "^1.1.0",
+                "babel-plugin-module-resolver": "^2.7.1",
+                "babel-plugin-transform-async-to-generator": "^6.24.1",
+                "babel-plugin-transform-class-properties": "^6.24.1",
+                "babel-plugin-transform-object-assign": "^6.22.0",
+                "babel-plugin-transform-object-rest-spread": "^6.26.0",
+                "babel-preset-es2015": "^6.24.1",
+                "babel-preset-react": "^6.24.1",
+                "eslint": "^4.18.1",
+                "eslint-plugin-jest": "^21.12.2",
+                "eslint-plugin-react": "^7.7.0",
+                "express": "^4.16.1",
+                "flow-bin": "^0.41.0",
+                "jest": "^21.2.1",
+                "jest-cli": "^22.4.2",
+                "jest-junit-reporter": "^1.1.0",
+                "react": "^16.0.0",
+                "react-dom": "^16.0.0",
+                "react-test-renderer": "^16.0.0",
+                "standard-version": "^4.3.0",
+                "webpack": "^3.6.0"
+            },
+            "peerDependencies": {
+                "react": "*"
+            },
+            "gitHead": "0e95c3224932f3797fa49bf370345c4f9f1734d9",
+            "bugs": {
+                "url": "https://github.com/adam-26/react-chunk/issues"
+            },
+            "homepage": "https://github.com/adam-26/react-chunk#readme",
+            "_id": "react-chunk@7.2.0",
+            "_npmVersion": "5.3.0",
+            "_nodeVersion": "8.4.0",
+            "_npmUser": {
+                "name": "adam-26",
+                "email": "adam-26@outlook.com"
+            },
+            "dist": {
+                "integrity": "sha512-dm3bwdlfRjENNlGvwXaCfhi7E2H8STSLgQ3ejjubYyGd6tkBF70k8XSQ/xpwyjB/ChmclBP5numJoPkuZwQNVQ==",
+                "shasum": "7e8331cee69e7c159a17ae0e620a014e070be147",
+                "tarball": "https://registry.npmjs.org/react-chunk/-/react-chunk-7.2.0.tgz",
+                "fileCount": 11,
+                "unpackedSize": 65143,
+                "signatures": [
+                    {
+                        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                        "sig": "MEUCIGEkexEmSOYgmMJI4FA0VpXHD8BDSYhYezhM28ODxYggAiEAmOzIRL9c/i8rh9BV1pGMUOKT6jKUnzzCaSR9cX6X03w="
+                    }
+                ]
+            },
+            "maintainers": [
+                {
+                    "name": "adam-26",
+                    "email": "adam-26@outlook.com"
+                }
+            ],
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/react-chunk_7.2.0_1519948960130_0.7852287721073665"
+            },
+            "_hasShrinkwrap": false
+        },
+        "7.3.0": {
+            "name": "react-chunk",
+            "version": "7.3.0",
+            "description": "A higher order component for dynamically importing components, forked from react-loadable.",
+            "main": "lib/index.js",
+            "author": {
+                "name": "adam-26"
+            },
+            "license": "MIT",
+            "repository": {
+                "type": "git",
+                "url": "git+https://github.com/adam-26/react-chunk.git"
+            },
+            "files": [
+                "babel.js",
+                "webpack.js",
+                "Recorder.js",
+                "lib/**"
+            ],
+            "scripts": {
+                "pretest": "npm run lint",
+                "test": "jest --coverage",
+                "prebuild": "npm run lint",
+                "build": "rm -rf ./lib && babel src -d lib",
+                "prestart": "npm run build && webpack",
+                "start": "babel-node example/server.js",
+                "prepublish": "npm run build",
+                "lint": "eslint ./src",
+                "ci-jest": "TEST_REPORT_PATH=./.build/test jest --ci --coverage --coverageDirectory ./.build/coverage --testResultsProcessor='./node_modules/jest-junit-reporter'",
+                "ci-lint": "eslint ./src --format junit --output-file ./.build/lint/eslint.xml"
+            },
+            "dependencies": {
+                "hoist-non-react-statics": "^2.5.0",
+                "invariant": "^2.2.3",
+                "prop-types": "^15.5.0",
+                "react-display-name": "^0.2.3"
+            },
+            "devDependencies": {
+                "babel-cli": "^6.26.0",
+                "babel-eslint": "^8.2.2",
+                "babel-loader": "^7.1.2",
+                "babel-plugin-dynamic-import-node": "^1.1.0",
+                "babel-plugin-module-resolver": "^2.7.1",
+                "babel-plugin-transform-async-to-generator": "^6.24.1",
+                "babel-plugin-transform-class-properties": "^6.24.1",
+                "babel-plugin-transform-object-assign": "^6.22.0",
+                "babel-plugin-transform-object-rest-spread": "^6.26.0",
+                "babel-preset-es2015": "^6.24.1",
+                "babel-preset-react": "^6.24.1",
+                "eslint": "^4.18.1",
+                "eslint-plugin-jest": "^21.12.2",
+                "eslint-plugin-react": "^7.7.0",
+                "express": "^4.16.1",
+                "flow-bin": "^0.41.0",
+                "jest": "^21.2.1",
+                "jest-cli": "^22.4.2",
+                "jest-junit-reporter": "^1.1.0",
+                "react": "^16.0.0",
+                "react-dom": "^16.0.0",
+                "react-test-renderer": "^16.0.0",
+                "standard-version": "^4.3.0",
+                "webpack": "^3.6.0"
+            },
+            "peerDependencies": {
+                "react": "*"
+            },
+            "gitHead": "7a9dc36b1cfbed322f580f2645f68984cb753d3d",
+            "bugs": {
+                "url": "https://github.com/adam-26/react-chunk/issues"
+            },
+            "homepage": "https://github.com/adam-26/react-chunk#readme",
+            "_id": "react-chunk@7.3.0",
+            "_npmVersion": "5.3.0",
+            "_nodeVersion": "8.4.0",
+            "_npmUser": {
+                "name": "adam-26",
+                "email": "adam-26@outlook.com"
+            },
+            "dist": {
+                "integrity": "sha512-8P0YefYiYuNKIpGKik2fPniHfSgNocgj3Ba1XSE1HiLyzI3QzFWShGslXNUFz2X047njixjAHkIfkG5xxs2Q8w==",
+                "shasum": "f905eda5047ff103cf74f4db34242da8b89730ce",
+                "tarball": "https://registry.npmjs.org/react-chunk/-/react-chunk-7.3.0.tgz",
+                "fileCount": 11,
+                "unpackedSize": 67359,
+                "signatures": [
+                    {
+                        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                        "sig": "MEUCIQCWnPXiqmlTVwznQtW9MdLITkvHw16K+YJ5TfqEPr1cPQIgPUvmmO4f+gQAjOTawz2rvrlM+i2wJixzb13abeKtDmk="
+                    }
+                ]
+            },
+            "maintainers": [
+                {
+                    "name": "adam-26",
+                    "email": "adam-26@outlook.com"
+                }
+            ],
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/react-chunk_7.3.0_1520001854609_0.14594562794500132"
+            },
+            "_hasShrinkwrap": false
+        }
+    },
+    "time": {
+        "created": "2018-02-24T01:12:41.712Z",
+        "1.0.0": "2018-02-24T01:12:41.821Z",
+        "modified": "2022-05-14T07:46:29.518Z",
+        "1.1.0": "2018-02-24T11:47:54.191Z",
+        "1.2.0": "2018-02-24T12:23:50.446Z",
+        "7.0.0": "2018-02-24T13:42:14.508Z",
+        "7.0.1": "2018-02-24T15:48:23.581Z",
+        "7.0.2": "2018-02-24T16:14:30.787Z",
+        "7.0.3": "2018-02-26T19:38:25.505Z",
+        "7.1.0": "2018-03-01T21:26:13.612Z",
+        "7.1.1": "2018-03-01T21:54:15.688Z",
+        "7.2.0": "2018-03-02T00:02:40.176Z",
+        "7.3.0": "2018-03-02T14:44:14.744Z"
+    },
+    "maintainers": [
+        {
+            "name": "adam-26",
+            "email": "adam-26@outlook.com"
+        }
+    ],
+    "description": "A higher order component for dynamically importing components, forked from react-loadable.",
+    "homepage": "https://github.com/adam-26/react-chunk#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/adam-26/react-chunk.git"
+    },
+    "author": {
+        "name": "adam-26"
+    },
+    "bugs": {
+        "url": "https://github.com/adam-26/react-chunk/issues"
+    },
+    "license": "MIT",
+    "readme": "# react-chunk\n\n_Code splitting with minimal boiler plate_\n\n> A higher order component for loading components with dynamic imports.\n\n\n[![npm](https://img.shields.io/npm/v/react-chunk.svg)](https://www.npmjs.com/package/react-chunk)\n[![npm](https://img.shields.io/npm/dm/react-chunk.svg)](https://www.npmjs.com/package/react-chunk)\n[![CircleCI branch](https://img.shields.io/circleci/project/github/adam-26/react-chunk/master.svg)](https://circleci.com/gh/adam-26/react-chunk/tree/master)\n[![Test Coverage](https://api.codeclimate.com/v1/badges/d805355d2fe47d351663/test_coverage)](https://codeclimate.com/github/adam-26/react-chunk/test_coverage)\n[![Maintainability](https://api.codeclimate.com/v1/badges/d805355d2fe47d351663/maintainability)](https://codeclimate.com/github/adam-26/react-chunk/maintainability)\n[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)\n\n\n_This is a fork of [react-loadable](https://github.com/jamiebuilds/react-loadable), differences and new features include:_\n * _A modified API to support new features_\n * _Full render control using a HOC wrapped component_\n * _Improved re-use of import components_\n * _Improved support for route code splitting_\n * _Pre-loading all chunks required to render an entire route_\n * _Option to _hoist_ static methods of imported components_\n * _Option to enable retry support with backoff_\n * _Manually invoking a retry after timeout or error_\n * _Support for [react-router-config](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-config) code splitting_\n\n> This enables **both** _component_ and _route_ code splitting\n\n## Install\n\n```sh\nnpm install --save react-chunk\n```\n\n```sh\nyarn add react-chunk\n```\n\n## Example\n\nFor more detailed examples, [take a look at the examples](https://github.com/adam-26/react-chunk/tree/master/example)\n\n### Single Import\n\n```js\nimport { chunk } from 'react-chunk';\n\n// It can be this easy!\nconst MyComponentChunk = chunk(() => import('./my-component'))();\n\nexport default class App extends React.Component {\n  render() {\n    return <MyComponentChunk />;\n  }\n}\n```\n\n### Multiple Imports\n```js\nimport { chunks } from 'react-chunk';\n\n// A component for rendering mutilple imports\nfunction MutilImportRenderer(props) {\n  const {\n    chunk: {\n      isLoaded,\n      imported: {\n        MyComponent,\n        MyOtherComponent\n      }\n    },\n    ...restProps\n  }) = props;\n\n  if (isLoaded) {\n    return (\n      <div>\n        <MyComponent {...restProps} />\n        <MyOtherComponent {...restProps} />\n      </div>\n    );\n  }\n\n  return <div>Loading...</div>;\n}\n\nconst MyComponentsChunk = chunks({\n  MyComponent: () => import('./my-component'),\n  MyOtherComponent: () => import('./my-other-component'),\n})(MutilImportRenderer);\n\nexport default class App extends React.Component {\n  render() {\n    return <MyComponentsChunk />;\n  }\n}\n```\n\n## Environment Configuration\n\nIt's _recommended_ you configure your development environment with the following plugins.\n\n### Client\n\nConfigure your client build.\n\n#### Babel\n\nAdd these plugins to your babel configuration.\n\n```sh\nnpm install --save-dev babel-plugin-syntax-dynamic-import\n```\n\nThe **order** of plugins is important.\n\n`.babelrc`\n```json\n{\n  \"presets\": {...},\n  \"plugins\": [\n    \"react-chunk/babel\",\n    \"syntax-dynamic-import\"\n  ]\n}\n\n```\n\n#### Webpack\n\nThe react-chunk webpack plugin will write the chunk module data to a file required for server-side rendering.\n\nThe webpack `CommonsChunkPlugin` is required to allow non entry point chunks to be pre-loaded on the client.\n\nAdd the plugins to your _client_ webpack plugins\n\n```js\nimport webpack from 'webpack';\nimport { ReactChunkPlugin } from 'react-chunk/webpack';\n\nplugins: [\n\n  new ReactChunkPlugin({\n    filename: path.join(__dirname, 'dist', 'react-chunk.json')\n  }),\n\n  new webpack.optimize.CommonsChunkPlugin({\n    name: 'manifest',\n    minChunks: Infinity\n  })\n]\n\n```\n\n### Server\n\nIf your application performs SSR, configure your server build.\n\n#### Babel\n\nAdd these plugins to your babel configuration.\n\n```sh\nnpm install --save-dev babel-plugin-dynamic-import-node\n```\n\nThe **order** of plugins is important.\n\n`.babelrc`\n```json\n{\n  \"presets\": {...},\n  \"plugins\": [\n    \"react-chunk/babel\",\n    \"dynamic-import-node\"\n  ]\n}\n\n```\n\n## Introduction\n\n\n### Automatic code-splitting on `import()`\n\nWhen you use `import()` with Webpack 2+, it will\n[automatically code-split](https://webpack.js.org/guides/code-splitting/) for\nyou with no additional configuration.\n\nThis means that you can easily experiment with new code splitting points just\nby switching to `import()` and using React Chunk. Figure out what performs\nbest for your app.\n\n\n### Naming webpack chunks\n\nIts often useful to assign _names_ to webpack chunks. This can be achieved easily using inline code comments.\n\nBe aware that naming chunks **impacts how webpack bundles your code**. You should [read about webpack code splitting](https://webpack.js.org/guides/code-splitting/#dynamic-imports).\n\n```js\nimport { chunk, chunks } from 'react-chunk';\n\nconst AppChunk =\n  chunk(() => import(/* webpackChunkName: \"App\" */ './app'))();\n\nconst TimeChunk =\n  chunks({\n    Calendar: () => import(/* webpackChunkName: \"calendar\" */ './calendar'),\n    Clock: () => import(/* webpackChunkName: \"clock\" */ './clock'),\n  })(TimeRenderer);\n\n```\n\n### Rendering using chunk props\n\nRendering a static \"Loading...\" doesn't communicate enough to the user. You\nalso need to think about error states, timeouts, retries, and making it a nice user experience.\n\nAs a developer, you can easiliy re-use import rendering logic when importing a single component. Renderering components for multiple components don't require much more effort.\n\n```js\nfunction ChunkRenderer(props) {\n  const {\n    chunk: {\n      isLoading,\n      hasLoaded,\n      pastDelay,\n      timedOut,\n      error,\n      retry,\n      loaded,\n      Imported\n    },\n    ...restProps\n  } = prop;\n\n  if (hasLoaded) {\n    return <Imported {...restProps } />;\n  }\n\n  if (error) {\n    return <div>An error occured</div>;\n  }\n\n  if (timedOut) {\n    return (\n      <div>\n        This is taking a while..\n        <a onClick={() => retry()}>retry?</a>\n      </div>\n    );\n  }\n\n  if (isLoading && pastDelay) {\n    return <div>Loading...</div>;\n  }\n\n  return null;\n}\n\nchunk(() => import('./someComponent'))(ChunkRenderer);\n```\n\nTo make this all nice, your [chunk component](#loadingcomponent) receives a\ncouple different props.\n\n\n#### Avoiding _Flash Of Loading Component_\n\nSometimes components load really quickly (< 200ms) and the loading screen only\nquickly flashes on the screen.\n\nA number of user studies have proven that this causes users to perceive things\ntaking longer than they really have. If you don't show anything, users perceive\nit as being faster.\n\nSo your rendering component will also get a [`pastDelay` prop](#propspastdelay)\nwhich will only be true once the component has taken longer to load than a set\n[delay](#optsdelay).\n\nThis delay defaults to `200ms` but you can also customize the\n[delay](#optsdelay) in `chunk` and `chunks`.\n\n```js\nchunk(() => import('./components/Bar'), {\n  delay: 300, // 0.3 seconds\n});\n```\n\n#### Timing out when the `loader` is taking too long\n\nSometimes network connections suck and never resolve or fail, they just hang\nthere forever. This sucks for the user because they won't know if it should\nalways take this long, or if they should try refreshing.\n\nThe rendering component will receive a\n[`timedOut` prop](#propstimedout) which will be set to `true` when the\n[`loader`](#optsloader) has timed out.\n\nHowever, this feature is disabled by default. To turn it on, you can pass a\n[`timeout` option](#optstimeout) to `chunk` and `chunks`.\n\n```js\nchunk(() => import('./components/Bar'), {\n  timeout: 10000, // 10 seconds\n});\n```\n\n### Customize rendering\n\nBy default `chunk` and `chunks` will render the `default` export of each returned import.\nIf you want to customize this behavior you can use the\n[`resolveDefaultImport` option](#optsresolveDefaultImport).\n\n#### Chunk rendering without a rendering component\n\n```js\n\n// Notice the HOC is invoked with no component\nconst MyComponentChunk = chunk(() => import('./myComponent'))();\n\n```\n\nWhen no rendering component is provided, `null` is rendered until the component **hasLoaded**.\n\n\n#### Rendering multiple chunks\n\n`chunks` **requires** a rendering component be provided when invoking the HOC, an error will be thrown if this requirement is not met.\n\n\n### Loading multiple resources\n\nTo make it easier to load multiple resources in parallel, you can use\n[`chunks`](#chunks).\n\nWhen using `chunks` a rendering component **must** be provided when invoking the HOC.\n\n#### Using `chunks` for multiple imports\n\n```js\nconst MultiComponentChunk = chunks({\n  Bar: () => import('./Bar'),\n  i18n: () => fetch('./i18n/bar.json').then(res => res.json())\n}, {\n  delay: 300,\n  // other options here...\n})(RequiredRendererComponent);\n```\n\n\n### Preloading\n\nAs an optimization, you can also decide to preload one or more components before being\nrendered.\n\n#### Preload a single chunk\n\nFor example, if you need to load a new component when a button gets pressed,\nyou could start preloading the component when the user hovers over the button.\n\nThe components created by `chunk` and `chunks` expose a\n[static `preload` method](#chunkcomponentpreload) which does exactly this.\n\n```js\nconst BarChunk = chunk(() => import('./Bar'))();\n\nclass MyComponent extends React.Component {\n  state = { showBar: false };\n\n  onClick = () => {\n    this.setState({ showBar: true });\n  };\n\n  onMouseOver = () => {\n    BarChunk.preloadChunk();\n  };\n\n  render() {\n    return (\n      <div>\n        <button\n          onClick={this.onClick}\n          onMouseOver={this.onMouseOver}>\n          Show Bar\n        </button>\n        {this.state.showBar && <BarChunk />}\n      </div>\n    )\n  }\n}\n```\n\n#### Preload multiple chunks\n\nThis approach can be used to load all the chunks required for rendering a route on the client, and ensure that all chunks are loaded before rendering the route.\n\nThis makes it easier to handle errors, instead of having to render an error for each failed component on the page (which may result in the user seeing many error messages) you can simply render an error page for the user - and allow the user to retry the previous action if desired.\n\n```js\nimport { preloadChunks } from 'react-chunk';\n\nconst FooChunk = chunk(() => import('./Foo'))();\nconst BarChunk = chunk(() => import('./Bar'))();\n\npreloadChunks([\n  FooChunk.getChunkLoader(),\n  BarChunk.getChunkLoader(),\n]).then(() => {\n  // use 'setState()' to render using the loaded components\n}).catch(err => {\n  // handle timeouts, or other errors\n})\n\n```\n\n## Server-Side Rendering\n\nWhen you go to render all these dynamically loaded components, what you'll get\nis a whole bunch of loading screens.\n\nThis really sucks, but the good news is that React Chunk is designed to\nmake server-side rendering work as if nothing is being imported dynamically.\n\n### Preloading all your chunk components on the server\n\nThe first step to rendering the correct content from the server is to make sure\nthat all of your chunk components are already loaded when you go to render\nthem.\n\nTo do this, you can use the [`preloadAll`](#loadablepreloadall)\nmethod. It returns a promise that will resolve when all your chunk\ncomponents are ready.\n\n```js\nimport { preloadAll } from 'react-chunk';\n\npreloadAll().then(() => {\n  app.listen(3000, () => {\n    console.log('Running on http://localhost:3000/');\n  });\n});\n```\n\n#### Configure babel and webpack\n\nEnsure you have [configured babel and webpack](#environmentconfiguration) for **both** _client_ and _server_ builds.\n\nThe babel plugin adds additional information to all of your `chunk` and `chunks`.\n\n#### Tracking which dynamic modules were rendered\n\nNext we need to find out which chunks were used to perform the server render.\n\nFor this, there is the [`Recorder`](#chunkrecorder) component which can\nbe used to record all the chunks used for rendering.\n\n```js\nimport ChunkRecorder from 'react-chunk/Recorder';\n\napp.get('/', (req, res) => {\n  let renderedChunks = [];\n\n  let html = ReactDOMServer.renderToString(\n    <ChunkRecorder addChunk={chunkName => renderedChunks.push(chunkName)}>\n      <App/>\n    </ChunkRecorder>\n  );\n\n  console.log(renderedChunks);\n\n  res.send(`...${html}...`);\n});\n```\n\n#### Resolving rendered chunks\n\nIn order to make sure that the client loads all the resources required by the\nserver-side render, we need to resolve the chunks that Webpack created.\n\nFirst we need to configure Webpack to write the chunk data to a file. Use the [React Chunk Webpack plugin](#webpack-plugin).\n\nThen we can use the plugin output to determine the chunks required for the client render. To determine the files required for each chunk, import the [`resolveChunks`](#resolveChunks)\nmethod from `react-chunk/webpack` and the data from Webpack.\n\n```js\nimport ChunkRecorder from 'react-chunk/Recorder';\nimport { resolveChunks } from 'react-chunk/webpack'\nimport chunkData from './dist/react-chunk.json';\n\napp.get('/', (req, res) => {\n  let renderedChunks = [];\n\n  let html = ReactDOMServer.renderToString(\n    <ChunkRecorder addChunk={chunkName => renderedChunks.push(chunkName)}>\n      <App/>\n    </ChunkRecorder>\n  );\n\n  let resources = resolveChunks(chunkData, renderedChunks);\n\n  // ...\n});\n```\n\nWe can then render these resources using `<script>` and `<link>` tags in our HTML.\n\nIt is important that the script files are included _before_ the main entry point, so that\nthey can be loaded by the browser prior to the app rendering.\n\nHowever, as the Webpack manifest (including the logic for parsing chunks) lives in\nthe main chunk, it will need to be extracted into its own chunk.\n\nThis is easy to do with the [CommonsChunkPlugin](https://webpack.js.org/plugins/commons-chunk-plugin/), add it to your webpack plugins configuration.\n\n```js\n// webpack.config.js\nexport default {\n  plugins: [\n    //...other webpack plugins\n    new webpack.optimize.CommonsChunkPlugin({\n      name: 'manifest',\n      minChunks: Infinity\n    })\n  ]\n}\n```\n\n* Ensure the `manifest.js` is loaded **before** all other webpack scripts.\n* Ensure the main entry point (in this example, `main.js`) is loaded **after** all other webpack scripts.\n\n```js\nlet resources = getBundles(chunkData, renderedChunks);\n\nlet styles = resources.filter(bundle => bundle.file.endsWith('.css'));\nlet scripts = resources.filter(bundle => bundle.file.endsWith('.js'));\n\nres.send(`\n  <!doctype html>\n  <html lang=\"en\">\n    <head>\n    ${styles.map(bundle => {\n      return `<link rel=\"stylesheet\" href =\"/dist/${bundle.file}\"></script>`\n    }).join('\\n')}\n    </head>\n    <body>\n      <div id=\"app\">${html}</div>\n\n      <!-- Load the manifest FIRST -->\n      <script src=\"/dist/manifest.js\"></script>\n\n      <!-- Then, load all resolved scripts -->\n      ${scripts.map(bundle => {\n        return `<script src=\"/dist/${bundle.file}\"></script>`\n      }).join('\\n')}\n\n      <!-- Load the main entry point LAST -->\n      <script src=\"/dist/main.js\"></script>\n    </body>\n  </html>\n`);\n```\n\n#### Preloading resolved chunks on the client\n\nWe can use the [`preloadReady()`](#loadablepreloadready) method on the\nclient to preload the chunk components that were included on the page.\n\nLike [`preloadAll()`](#loadablepreloadall), it returns a promise,\nwhich on resolution means that we can hydrate our app.\n\n```js\n// src/entry.js\nimport React from 'react';\nimport ReactDOM from 'react-dom';\nimport { preloadReady } from 'react-chunk';\nimport App from './components/App';\n\npreloadReady().then(() => {\n  ReactDOM.hydrate(<App/>, document.getElementById('app'));\n}).catch(err => {\n  // errors can occur if imports timeout or fail\n  // render an error page\n});\n\n```\n\n<h4 align=\"center\">\n  Now server-side rendering should work perfectly!\n</h4>\n\n## API\n\n### `chunk`\n\nA higher-order component for dynamically importing a single resource.\n\n`chunk(import: function[, options: Object]): ChunkComponent`\n\n```js\nimport { chunk } from 'react-chunk';\n\nconst ChunkComponent = chunk(() => import('./Bar'), {\n  delay: 200,\n  timeout: 10000,\n})([WrappedComponent]);\n```\n\nThis returns a [ChunkComponent](#chunkcomponent). The `WrappedComponent` for a `chunk` is optional, but recommended for complete control of the rendering. The `WrappedComponent` will be passed an additional single prop `chunk`, that provides all state required to render the imported resource.\n\n### `chunks`\n\nA higher-order component that allows you to load multiple resources in parallel.\n\n`chunks(importMap: {[string]: function}[, options: Object]): ChunksComponent`\n\n\n```js\nimport { chunks } from 'react-chunk';\n\nconst ChunksComponent = chunks({\n  Foo: () => import('./Foo'),\n  Bar: () => import('./Bar')\n}, {\n  // define options here...\n  delay: 200,\n  timeout: 10000,\n})(WrappedComponent);\n```\n\nThis returns a [ChunksComponent](#chunkscomponent). The `WrappedComponent` for a `chunks` is required to control rendering of all imported resources. The `WrappedComponent` will be passed an additional single prop `chunk`, that provides all state required to render the imported resource.\n\n\n### `chunk` and `chunks` Options\n\n#### `opts.displayName: string`\n\nThe react display name to assign when creating the HOC.\n\n#### `opts.hoistStatics: boolean`\n\n`true` to _hoist_ non-react static methods of the imported component to the HOC. Defaults to `false`.\n\nNote that the static methods are only hoisted after the component is loaded (obviously) - if you're using `hoistStatics: true` on a component its _recommended_ that you `preload` (or `preloadChunks`) the component to avoid invoking static methods that have not yet been assigned to the HOC.\n\nUsing this option with `chunks` is not supported and will result in an error.\n\n#### `opts.resolveDefaultImport: (imported, importKey) => mixed`\n\nBy default, the `.default` export of the imported resource is returned to the `Imported` property (for `chunk`) or the `imported` property (for `chunks`).\n\nThe `importKey` is only passed for `chunks`.\n\n#### `opts.retryBackOff: Array<number>`\n\nAllows automatic retry for failed imports using the assigned backOff.\n\nWhen used in conjuntion with `timeout`, retry attempts will be invoked after the configured `timeout` value has expired.\n\nFor example: `[250, 500]` will result in the first retry attempt starting 250ms **after** the first `timeout` or `error`. The second retry will start 500ms **after** the second _timeout_ or _error_.\n\n\n#### `opts.delay: number`\n\nTime to wait (in milliseconds) before passing\n[`props.pastDelay`](#propspastdelay) to your [`loading`](#optsloading)\ncomponent. This defaults to `200`.\n\n[Read more about delays](#avoiding-flash-of-loading-component).\n\n#### `opts.timeout: number`\n\nTime to wait (in milliseconds) before passing\n[`props.timedOut`](#propstimedout) to your [`loading`](#optsloading) component.\nThis is turned off by default.\n\n[Read more about timeouts](#timing-out-when-the-loader-is-taking-too-long).\n\n#### `opts.webpack: function`\n\nAn optional function which returns an array of Webpack module ids which you can\nget with `require.resolveWeak`.\n\n```js\nchunk(() => import('./component'), {\n  webpack: () => [require.resolveWeak('./Foo')],\n});\n```\n\nThis option can be automated with the [Babel Plugin](#babel-plugin).\n\n#### `opts.modules: Array<string>`\n\nAn optional array with module paths for your imports.\n\n```js\nchunk(() => import('./component'), {\n  modules: ['./my-component']\n});\n```\n\nThis option can be automated with the [Babel Plugin](#babel-plugin).\n\n### `ChunkComponent`\n\nThis is the component returned by `chunk`.\n\n```js\nconst ChunkComponent = chunk({\n  // ...\n});\n```\n\nProps passed to this component will be passed straight through to the\nwrapped component, in additional to a `chunk` prop that includes all data required for rendering the imported resource.\n\n### `ChunksComponent`\n\nThis is the component returned by `chunks`.\n\n```js\nconst ChunksComponent = chunks({\n  // ...\n});\n```\n\nProps passed to this component will be passed straight through to the\nwrapped component, in additional to a `chunk` prop that includes all data required for rendering the imported resources.\n\n### Common `chunk` and `chunks` static methods\n#### `preloadChunk()`\n\nThis is a static method that can be used to load the component ahead of time.\n\n```js\nconst ChunkComponent = chunk({...});\n\nChunkComponent.preloadChunk();\n```\n\nThis returns a promise, but you should avoid waiting for that promise to\nresolve to update your UI. In most cases it creates a bad user experience.\n\n[Read more about preloading](#preloading).\n\n#### `getChunkLoader()`\n\nThis is a static method that can be used to obtain a reference to the components loader. It should be used in conjuntion with [preloadChunks()](#preloadchunks)\n\n```js\nconst ChunkComponent = chunk({...});\n\nChunkComponent.getChunkLoader();\n```\n\n#### `onImported(subscriber: (ImportedComponent) => void): () => void`\n\nThis is a static method that can be used to subscribe for notifications when component has been imported.\n\nReturns an `unsubscribe` function.\n\n```js\nconst ChunkComponent = chunk({...});\n\nChunkComponent.onImported((ImportedComponent) => { /* use ImportedComponent */ });\n```\n\n#### `onImportedWithHoist(subscriber: (ImportedComponent) => void): () => void`\n\nThis is a static method that can be used to subscribe for notifications when component has been imported where `hoistStatics: true`.\n\nNote: this requires `hoistStatics: true`\n\nReturns an `unsubscribe` function.\n\n```js\nconst ChunkComponent = chunk({...});\n\nChunkComponent.onImportedWithHoist((ImportedComponent) => { /* use ImportedComponent */ });\n```\n\n### `WrappedComponent`\n\nThis is the component you pass to the `chunk()` or `chunks()` HOC.\n\n```js\nfunction WrappedComponent(props) {\n  const {\n    chunk: {\n      isLoading,\n      hasLoaded,\n      pastDelay,\n      timedOut,\n      error,\n      retry,\n      loaded,\n      importKeys,\n      Imported // - only for 'chunk()'\n      // imported - only for 'chunks()'\n    },\n    ...restProps\n  } = prop;\n\n  if (hasLoaded) {\n    return <Imported {...restProps } />;\n  }\n\n  if (error) {\n    return <div>An error occured</div>;\n  }\n\n  if (timedOut) {\n    return (\n      <div>\n        This is taking a while..\n        <a onClick={() => retry()}>retry?</a>\n      </div>\n    );\n  }\n\n  if (isLoading && pastDelay) {\n    return <div>Loading...</div>;\n  }\n\n  return null;\n}\n\n```\n\n[Read more about loading components](#creating-a-great-loading-component)\n\n#### `chunk.Imported: mixed`\n> Note the UPPER CASE 'i'\n>\n> This prop is **only** passed to `chunk` components.\n\nIt provides access to the [default export](#optsresolveDefaultImport) of the `import`ed resource.\n\nIt is **only** populated when `chunk.hasLoaded` is `true`.\n\n#### `chunk.imported: Object`\n> Note the LOWER CASE 'i'\n>\n> This prop is **only** passed to `chunks` components.\n\nIt provides access to the [default export](#optsresolveDefaultImport) of the all `import`ed resource, by key.\n\nIt is **only** populated when `chunk.hasLoaded` is `true`.\n\n\n#### `chunk.importKeys: Array<string>`\n\nFor `chunks()`, an array of the key names used for imports.\n\nFor `chunk()`, it will always be an empty array\n\n> This can be used to create a generic rendering component that can be used to render both `chunk()` and `chunks()` components.\n\n#### `chunk.isLoading: boolean`\n\n`true` if the import(s) are currently being loaded, otherwise `false`.\n\n#### `chunk.hasLoaded: boolean`\n\n`true` if the import(s) have been successfully loaded, otherwise `false`.\n\n#### `chunk.error: boolean`\n\nA boolean prop passed to [`WrappedComponent`](#wrappedcomponent) when the loading resource(s) has failed.\n\n```js\nfunction WrappedComponent({chunk}) {\n  if (chunk.error) {\n    return <div>Error!</div>;\n  } else {\n    return <div>Loading...</div>;\n  }\n}\n```\n\n[Read more about errors](#loading-error-states).\n\n#### `chunk.timedOut: boolean`\n\nA boolean prop passed to [`WrappedComponent`](#wrappedcomponent) after a set\n[`timeout`](#optstimeout).\n\n```js\nfunction WrappedComponent({chunk}) {\n  if (chunk.timedOut) {\n    return <div>Taking a long time...</div>;\n  } else {\n    return <div>Loading...</div>;\n  }\n}\n```\n\n[Read more about timeouts](#timing-out-when-the-loader-is-taking-too-long).\n\n#### `chunk.pastDelay: boolean`\n\nA boolean prop passed to [`WrappedComponent`](#wrappedcomponent) after a set\n[`delay`](#optsdelay).\n\n```js\nfunction WrappedComponent({chunk}) {\n  if (chunk.pastDelay) {\n    return <div>Loading...</div>;\n  } else {\n    return null;\n  }\n}\n```\n\n[Read more about delays](#avoiding-flash-of-loading-component).\n\n#### `chunk.loaded: mixed`\n\nThis is considered a \"low-level\" API property, the `loaded` prop provides _raw_ access to all imported resources. This can be used in scenarios where an imported resource includes multiple exports that you need to access.\n\n### `preloadAll()`\n\nThis will call all of the\n[`WrappedComponent.preload`](#wrappedcomponentpreload) methods recursively\nuntil they are all resolved. Allowing you to preload all of your dynamic\nmodules in environments like the server.\n\n```js\nimport { preloadAll } from 'react-chunk';\npreloadAll().then(() => {\n  app.listen(3000, () => {\n    console.log('Running on http://localhost:3000/');\n  });\n});\n```\n\nIt's important to note that this requires that you declare all of your chunk\ncomponents when modules are initialized rather than when your app is being\nrendered.\n\n**Good:**\n\n```js\n// During module initialization...\nconst ChunkComponent = chunk(...);\n\nclass MyComponent extends React.Component {\n  componentDidMount() {\n    // ...\n  }\n}\n```\n\n**Bad:**\n\n```js\n// ...\n\nclass MyComponent extends React.Component {\n  componentDidMount() {\n    // During app render...\n    const ChunkComponent = chunk(...);\n  }\n}\n```\n\n> **Note:** `preloadAll()` will not work if you have more than one\n> copy of `react-chunk` in your app.\n\n[Read more about preloading on the server](#preloading-all-your-chunk-components-on-the-server).\n\n### `preloadReady()`\n\nCheck for modules that are already loaded in the browser and call the matching\n[`WrappedComponent.preload`](#wrappedcomponentpreload) methods.\n\n```js\nimport { preloadReady } from 'react-chunk';\npreloadReady().then(() => {\n  ReactDOM.hydrate(<App/>, document.getElementById('app'));\n});\n```\n\n[Read more about preloading on the client](#waiting-to-render-on-the-client-until-all-the-bundles-are-loaded).\n\n### `Recorder`\n\nA component for reporting which chunks were used for rendering.\n\nAccepts an `addChunk` prop which is called for every `chunkName` that is\nrendered via React Chunk.\n\n```js\nimport ChunkRecorder from 'react-chunk/Recorder';\nlet renderedChunks = [];\n\nlet html = ReactDOMServer.renderToString(\n  <ChunkRecorder addChunk={chunkName => renderedChunks.push(chunkName)}>\n    <App/>\n  </ChunkRecorder>\n);\n\nconsole.log(renderedChunks);\n```\n\n[Read more about capturing rendered modules](#finding-out-which-dynamic-modules-were-rendered).\n\n## Babel Plugin\n\nProviding [`opts.webpack`](#optswebpack) and [`opts.modules`](#optsmodules) for\nevery chunk component is a lot of manual work to remember to do.\n\nInstead you can add the Babel plugin to your config and it will automate it for\nyou:\n\n```json\n{\n  \"plugins\": [\"react-chunk/babel\"]\n}\n```\n\n**Input**\n\n```js\nimport { chunk, chunks } from 'react-chunk';\n\nconst ChunkMyComponent = chunk(() => import('./MyComponent'));\n\nconst ChunkComponents = chunks({\n  One: () => import('./One'),\n  Two: () => import('./Two'),\n});\n```\n\n**Output**\n\n```js\nimport { chunk, chunks } from 'react-chunk';\n\nconst ChunkMyComponent = chunk(\n  () => import('./MyComponent'),\n  {},\n  {\n    webpack: () => [require.resolveWeak('./MyComponent')],\n    modules: ['./MyComponent']\n  }\n});\n\nconst ChunkComponents = chunks({\n    One: () => import('./One'),\n    Two: () => import('./Two'),\n  },\n  {},\n  {\n    webpack: () => [require.resolveWeak('./One'), require.resolveWeak('./Two')],\n    modules: ['./One', './Two']\n  }\n});\n```\n\n[Read more about declaring modules](#declaring-which-modules-are-being-loaded).\n\n## Webpack Plugin\n\nIn order to [send the right bundles down](#mapping-loaded-modules-to-bundles)\nwhen rendering server-side, you'll need the React Chunk Webpack plugin \nto provide you with a mapping of modules to bundles.\n\n```js\n// webpack.config.js\nimport { ReactChunkPlugin } from 'react-chunk/webpack';\n\nexport default {\n  plugins: [\n    new ReactChunkPlugin({\n      filename: './dist/react-chunk.json',\n    }),\n  ],\n};\n```\n\nThis will create a file (`opts.filename`) which you can import to map modules\nto bundles.\n\n### `opts.filename`\nRequired, the destination file for writing react-chunk module data\n\n### `opts.ignoreChunkNames`\nOptional, an array of webpack chunk names to exclude from the module data\n\nBy ignoring the main entry point (ie: `main` or `index`) only required module data is included in the output.\n\n[Read more about mapping modules to bundles](#mapping-loaded-modules-to-bundles).\n\n### `resolveChunks`\n\nA method exported by `react-chunk/webpack` for converting chunks to\nresources.\n\n```js\nimport { resolveChunks } from 'react-chunk/webpack';\n\nlet resources = resolveChunks(chunkData, renderedChunks);\n```\n\n[Read more about mapping modules to bundles](#mapping-loaded-modules-to-bundles).\n\n## FAW\n\n### How do I avoid repetition?\n\nSpecifying the same `loading` component or `delay` every time you use\n`chunk()` or `chunks()` gets repetitive fast. Instead you can wrap `chunk` and `chunks` with your\nown Higher-Order Component (HOC) to set default options.\n\n```js\n// chunkOptions.js\nconst defaultChunkOpts = {\n  delay: 200,\n  timeout: 10,\n};\n\nexport default defaultChunkOpts;\n```\n\n```js\nimport { chunk chunks } from 'react-chunk';\nimport Loading from './my-loading-component';\nimport defaultChunkOpts form './chunkOptions';\n\n\nexport default function MyComponentChunk(opts = {}) {\n  return chunk(\n    () => import('./my-component'),\n    Object.assign({}, defaultChunkOpts, opts)\n  );\n};\n```\n\nThen you can specify additional `options` and a `WrappedComponent` when you go to use it.\n\n```js\nimport MyComponentChunk from './MyComponentChunk';\nimport ChunkRenderer from './ChunkRenderer';\n\nconst MyAutoRetryComponentChunk = MyComponentChunk({\n  retryBackOff: [200, 300]\n})(ChunkRenderer);\n\nexport default class App extends React.Component {\n  render() {\n    return <MyAutoRetryComponentChunk />;\n  }\n}\n```\n\n### How do I handle other styles `.css` or sourcemaps `.map` with server-side rendering?\n\nWhen you call [`resolveChunks`](#resolveChunks), it may return file types other than\nJavaScript depending on your Webpack configuration.\n\nTo handle this, you should manually filter down to the file extensions that\nyou care about:\n\n```js\nlet resources = resolveChunks(stats, modules);\n\nlet styles = resources.filter(bundle => bundle.file.endsWith('.css'));\nlet scripts = resources.filter(bundle => bundle.file.endsWith('.js'));\n\nres.send(`\n  <!doctype html>\n  <html lang=\"en\">\n    <head>\n      ...\n      ${styles.map(style => {\n        return `<link href=\"/dist/${style.file}\" rel=\"stylesheet\"/>`\n      }).join('\\n')}\n    </head>\n    <body>\n      <div id=\"app\">${html}</div>\n      <script src=\"/dist/manifest.js\"></script>\n      ${scripts.map(script => {\n        return `<script src=\"/dist/${script.file}\"></script>`\n      }).join('\\n')}\n      <script src=\"/dist/main.js\"></script>\n    </body>\n  </html>\n`);\n```\n",
+    "readmeFilename": "README.md"
 }
